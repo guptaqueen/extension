@@ -1,0 +1,19 @@
+
+{
+    "name": "Hate and Toxic text detector",
+    "version": "2.0",
+    "description": "Best extension",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png",
+        "default_title": "My Chrome extension"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
